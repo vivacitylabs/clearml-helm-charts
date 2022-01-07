@@ -3,7 +3,7 @@ entries:
   clearml:
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2022-01-05T07:27:31.191221607Z"
+    created: "2022-01-07T16:24:30.000772591Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -18,7 +18,7 @@ entries:
       repository: https://helm.elastic.co
       version: 7.16.2
     description: MLOps platform
-    digest: 178f726deee05736c5094e7633e7226a0da9d3c46c7426e4269ae460543c3ff0
+    digest: 110eaef63e99abfaf0a2ff9897efd170b71856c7b8b0cb9d0d6cd7ff08ed4ea7
     home: https://clear.ml
     icon: https://raw.githubusercontent.com/allegroai/clearml/master/docs/clearml-logo.svg
     keywords:
@@ -34,7 +34,7 @@ entries:
     - https://github.com/allegroai/clearml
     type: application
     urls:
-    - https://github.com/allegroai/clearml-helm-charts/releases/download/clearml-3.3.0/clearml-3.3.0.tgz
+    - clearml-3.3.0.tgz
     version: 3.3.0
   - apiVersion: v2
     appVersion: 1.1.1
@@ -911,4 +911,4 @@ entries:
     urls:
     - https://github.com/allegroai/clearml-helm-charts/releases/download/clearml-2.0.0-alpha1/clearml-2.0.0-alpha1.tgz
     version: 2.0.0-alpha1
-generated: "2022-01-05T07:27:31.191429012Z"
+generated: "2022-01-07T16:24:29.989020867Z"
